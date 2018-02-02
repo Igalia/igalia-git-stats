@@ -40,13 +40,13 @@ en:
   insertions_by_author: Lines added by author
   deletions_by_author: Lines deleted by author
   changed_lines_by_author: Changed lines by author
-  best_authors_shown: LGE Chromium authors shown
+  best_authors_shown: Igalia Chromium authors shown
   commits_count_by_author: Commits count by author
   commits_sum_by_author_by_date: Commits sum by author by date
   insertions_by_author_by_date: Lines added by author by date
   deletions_by_author_by_date: Lines deleted by author by date
   changed_lines_by_author_by_date: Changed lines by author by date
-  best_authors: LGE Chromium authors
+  best_authors: Igalia Chromium authors
   insertions: Lines added
   deletions: Lines deleted
   first_commit: First commit
