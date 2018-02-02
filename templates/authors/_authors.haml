@@ -1,0 +1,54 @@
+.tabbable.tabs-left
+  %ul.nav.nav-tabs
+    %li{class: page == :best_authors ? "active" : ""}
+      %a{href: 'best_authors.html'}= :best_authors.t
+    %li{class: page == :commits_sum_by_author_by_date ? "active" : ""}
+      %a{href: 'commits_sum_by_author_by_date.html'}= :commits_sum_by_author_by_date.t
+
+  .tab-content
+    .tab-pane.active
+      .page-header
+        %h1.pagination-centered= page.t
+
+      - if page == :best_authors
+        %table{:class => "table table-bordered table-condensed table-hover"}
+          %tr
+            %th #
+            %th= :author.t
+            %th= :commits.t
+            %th= :gerrit.t
+            %th= :rietveld.t
+            %th= :ongoing_review.t
+            %th= :first_commit.t
+            %th= :last_commit.t
+            %th
+          - sorted_authors = repo.authors.sort_by { |a| -a.commits.size}
+          - sorted_authors.each_with_index do |author, i|
+            %tr
+              %th= i+1
+              %th= "#{author.name} &lt;#{author.email}&gt;"
+              %td= "<a href=https://chromium.googlesource.com/chromium/src/+log/master?author=#{author.email}>#{author.commits.size}</a>"
+              %td= "<a href=https://chromium-review.googlesource.com/q/status:merged+author:#{author.email}>gerrit</a>"
+              %td= "<a href=https://codereview.chromium.org/search?closed=2&owner=#{author.email}>rietveld</a>"
+              %td= "<a href=https://chromium-review.googlesource.com/q/is:open+owner:#{author.email}>ongoing</a>"
+              %td= I18n.localize(author.commits.first.try(:date), format: :long) rescue ""
+              %td= I18n.localize(author.commits.last.try(:date), format: :long) rescue ""
+              %td
+                %a.btn{:href => "#{author.dirname}/activity/by_date.html"}= :activity.t
+              %td
+                %a.btn{:href => "#{author.dirname}/author_details/commits_by_date.html"}= :details.t
+
+      -elsif page == :commits_count_by_author
+        = high_chart("charts.commits_count_by_author", charts.commits_count_by_author)
+        %small
+          %center= "5 #{:best_authors_shown.t}"
+
+      -elsif page == :commits_sum_by_author_by_date
+        = high_stock("charts.commits_sum_by_author_by_date", charts.commits_sum_by_author_by_date)
+        %small
+          %center= "5 #{:best_authors_shown.t}"
+
+      -elsif page == :changed_lines_by_author_by_date
+        = high_stock("charts.changed_lines_by_author_by_date", charts.changed_lines_by_author_by_date)
+        %small
+          %center= "5 #{:best_authors_shown.t}"

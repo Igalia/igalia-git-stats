@@ -1,0 +1,25 @@
+%table{:class => "table table-hover table-bordered"}
+  %tr
+    %td= :project_name.t
+    %td= repo.project_name
+  %tr
+    %td= :project_version.t
+    %td= repo.project_version
+  %tr
+    %td= :tree_path.t
+    %td= repo.tree_path
+  %tr
+    %td= :generated_at.t
+    %td= I18n.localize(DateTime.now, format: :long)
+  %tr
+    %td= :generator.t
+    %td= "GitStats #{GitStats::VERSION}"
+  %tr
+    %td= :report_period.t
+    %td= repo.commits_period.map {|d| I18n.localize(d, format: :long)}.join(" .. ")
+  %tr
+    %td= :total_commits.t
+    %td= repo.commits.size
+  %tr
+    %td= :authors.t
+    %td= repo.authors.size

@@ -1,0 +1,66 @@
+en:
+  project_name: Project name
+  project_version: Project version
+  tree_path: Tree path
+  generated_at: Generated at
+  generator: Generator
+  report_period: Report period
+  total_files: Total files
+  total_lines: Total lines
+  total_commits: Total commits
+  authors: Authors
+  commits: Commits
+  commits_by_hour: Commits by hour
+  files: Files
+  lines: Lines
+  comments: Comments
+  files_by_date: Files by date
+  lines_by_date: Lines by date
+  comments_by_date: Comments by date
+  files_by_extension: Files by extension
+  lines_by_extension: Lines by extension
+  hour_of_day: Hour of day
+  hour: Hour
+  percentage: Percentage
+  day: Day
+  day_of_week: Day of week
+  hour_of_week: Hour of week
+  month: Month
+  month_of_year: Month of year
+  year_month: Year and month
+  commits_by_wday: Commits by day of week
+  commits_by_month: Commits by month
+  commits_by_year_month: Commits by year and month
+  commits_by_month_of_year: Commits by month of year
+  year: Year
+  commits_by_year: Commits by year
+  activity: Activity
+  activity_by_date: Activity by date
+  commits_by_date: Commits by date
+  insertions_by_author: Lines added by author
+  deletions_by_author: Lines deleted by author
+  changed_lines_by_author: Changed lines by author
+  best_authors_shown: LGE Chromium authors shown
+  commits_count_by_author: Commits count by author
+  commits_sum_by_author_by_date: Commits sum by author by date
+  insertions_by_author_by_date: Lines added by author by date
+  deletions_by_author_by_date: Lines deleted by author by date
+  changed_lines_by_author_by_date: Changed lines by author by date
+  best_authors: LGE Chromium authors
+  insertions: Lines added
+  deletions: Lines deleted
+  first_commit: First commit
+  last_commit: Last commit
+  author: Author
+  show_more: More
+  close: Close
+  binary: Binary
+  text: Text
+  general: General
+  details: Details
+  insertions_by_date: Lines added by date
+  deletions_by_date: Lines deleted by date
+  changed_lines_by_date: Changed lines by date
+  gerrit: Chromium Gerrit
+  rietveld: Chromium Rietveld
+  ongoing_review: Ongoing Review
