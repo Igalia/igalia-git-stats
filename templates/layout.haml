@@ -7,7 +7,55 @@
     %link{:rel => "stylesheet", :href => asset_path('bootstrap/css/bootstrap.min.css', active_page), :type => "text/css"}
     %style
       :plain
-        body { padding-top: 60px; }
+        body {
+           padding-top: 60px;
+           font-family: "Trebuchet MS","Bitstream Vera Sans", "DejaVu Sans", "Luxi Sans","Lucida Grande", Helvetica, Verdana, Arial,sans-serif;
+           background-color:#fdfdfd;
+        }
+        .navbar {
+          font-size: 16px;
+        }
+        .navbar .nav>li>a {
+          float: none;
+          padding: 10px 10px 10px;
+          color: #eee;
+          text-decoration: none;
+          text-shadow: none;
+        }
+        .navbar .nav>li>a:hover {
+          color: #ff9900;
+        }
+        .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+          -webkit-border-radius: 3px;
+          color: #555;
+          padding: 5px 10px 5px;
+          margin: 5px 10px 5px;
+          text-decoration: none;
+          background-color: #ccc;
+        }
+        .navbar .brand {
+          -webkit-border-radius: 3px;
+          background: #FF9900;
+          color: #404040;
+          display: block;
+          float: left;
+          padding: 5px 15px 5px;
+          margin: 5px 15px 5px;
+          margin-left: -20px;
+          font-size: 20px;
+          font-weight: 200;
+          /* color: white; */
+          text-shadow: none;
+        }
+        .navbar-inner {
+          background: #404040;
+        }
+        a {
+          color: #666666;
+        }
+        a:hover {
+          color: #ff9900;
+        }
     %link{:rel => "stylesheet", :href => asset_path('bootstrap/css/bootstrap-responsive.min.css', active_page), :type => "text/css"}
     %script{:src => asset_path('jquery.min.js', active_page), :type => "text/javascript"}
     %script{:src => asset_path('bootstrap/js/bootstrap.min.js', active_page), :type => "text/javascript"}
