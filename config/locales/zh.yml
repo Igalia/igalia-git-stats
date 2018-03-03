@@ -40,13 +40,13 @@ zh_tw:
   insertions_by_author: 该作者新增的行数
   deletions_by_author: 该作者删除的行数
   changed_lines_by_author: 该作者变更的行数
-  best_authors_shown: 个最活跃的作者
+  igalia_authors_shown: 个最活跃的作者
   commits_count_by_author: 按作者统计提交数量
   commits_sum_by_author_by_date: 按日期及作者统计提交数量
   insertions_by_author_by_date: 按日期及作者统计增加行数
   deletions_by_author_by_date: 按日期及作者统计删除行数
   changed_lines_by_author_by_date: 按日期及作者统计变更行数
-  best_authors: 作者排行榜
+  igalia_authors: 作者排行榜
   insertions: 新增行数
   deletions: 删除行数
   first_commit: 首次提交

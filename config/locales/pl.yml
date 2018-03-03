@@ -37,13 +37,13 @@ pl:
   insertions_by_author: Dodane linie
   deletions_by_author: Usunięte linie
   changed_lines_by_author: Zmienione linie
-  best_authors_shown: najlepszych autorów
+  igalia_authors_shown: najlepszych autorów
   commits_count_by_author: Liczba commitów
   commits_sum_by_author_by_date: Liczba commitów po dacie
   insertions_by_author_by_date: Dodane linie po dacie
   deletions_by_author_by_date: Usunięte linie po dacie
   changed_lines_by_author_by_date: Zmienione linie po dacie
-  best_authors: Najlepsi autorzy
+  igalia_authors: Najlepsi autorzy
   insertions: Dodane linie
   deletions: Usunięte linie
   first_commit: Pierwszy commit
