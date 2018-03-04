@@ -40,13 +40,13 @@ bg:
   insertions_by_author: Редове добавени от потребител
   deletions_by_author: Редове изтрити от потребител
   changed_lines_by_author: Редактирани редове от потребител
-  best_authors_shown: Най-добрите потребители
+  igalia_authors_shown: Най-добрите потребители
   commits_count_by_author: Общо брой качвания на потребител
   commits_sum_by_author_by_date: Общ брой качвания от потребител за период
   insertions_by_author_by_date: Добавени редове за автор за период
   deletions_by_author_by_date: Изтрити редове за автор за период
   changed_lines_by_author_by_date: Променени редове за автор за период
-  best_authors: Най-добри потребители
+  igalia_authors: Най-добри потребители
   insertions: Добавени редове
   deletions: Изтрити редове
   first_commit: Първо качване

@@ -39,13 +39,13 @@ de:
   insertions_by_author: Zeilen hinzuf&uuml;gt von Autor
   deletions_by_author: Zeilen gel&ouml;scht von Autor
   changed_lines_by_author: Ge&auml;nderte Zeilen von Autor
-  best_authors_shown: aktivsten Autoren werden angezeigt
+  igalia_authors_shown: aktivsten Autoren werden angezeigt
   commits_count_by_author: Commits eines Autors
   commits_sum_by_author_by_date: Commits nach Autor und Datum
   insertions_by_author_by_date: Hinzugef&uuml;gte Zeilen pro Autor und Datum
   deletions_by_author_by_date: Gel&ouml;schte Zeilen pro Autor und Datum
   changed_lines_by_author_by_date: Ge&auml;nderte Zeilen pro Autor und Datum
-  best_authors: Aktivste Autoren
+  igalia_authors: Aktivste Autoren
   insertions: Zeilen hinzugef&uuml;gt
   deletions: Zeilen gel&ouml;scht
   first_commit: Erster commit

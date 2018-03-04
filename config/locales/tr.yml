@@ -19,11 +19,11 @@ tr:
   comments_by_date: Tarihe göre yorum sayısı
   files_by_extension: Türüne göre dosyalar
   lines_by_extension: Türüne göre satırlar
-  hour_of_day: Günlük saate göre 
-  hour: Saat 
+  hour_of_day: Günlük saate göre
+  hour: Saat
   percentage: Yüzde
   day: Gün
-  day_of_week: Haftalık günlere göre 
+  day_of_week: Haftalık günlere göre
   hour_of_week: Haftalık saate göre
   month: Ay
   month_of_year: Yıllık aya göre
@@ -40,13 +40,13 @@ tr:
   insertions_by_author: Geliştirici tarafından eklenen satırlar
   deletions_by_author: Geliştirici tarafından silinen satırlar
   changed_lines_by_author: Geliştirici tarafından değiştirilen satırlar
-  best_authors_shown: en iyi geliştiriciler 
+  igalia_authors_shown: en iyi geliştiriciler
   commits_count_by_author: Geliştiriciye göre gönderim sayısı
   commits_sum_by_author_by_date: Günlük geliştiriciye göre gönderim sayısı
   insertions_by_author_by_date: Günlük geliştiriciye göre satır sayısı
   deletions_by_author_by_date: Günlük geliştiriciye göre silinen satır sayısı
   changed_lines_by_author_by_date: Günlük geliştiriciye göre değişen satır sayısı
-  best_authors: En İyi Geliştiriciler
+  igalia_authors: En İyi Geliştiriciler
   insertions: Eklenen satır
   deletions: Silinen satırlar
   first_commit: İlk gönderim
@@ -56,7 +56,7 @@ tr:
   close: Kapat
   binary: Binary
   text: Text
-  general: Genel 
+  general: Genel
   details: Detaylar
   insertions_by_date: Güne göre eklenen satırlar
   deletions_by_date: Güne göre silinen satırlar
