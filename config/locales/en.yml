@@ -41,6 +41,7 @@ en:
   deletions_by_author: Lines deleted by author
   changed_lines_by_author: Changed lines by author
   igalia_authors_shown: Igalia Chromium authors shown
+  individual_igalia_authors_shown: Individual Igalia Chromium author shown
   commits_count_by_author: Commits count by author
   commits_sum_by_author_by_date: Commits sum by author by date
   insertions_by_author_by_date: Lines added by author by date

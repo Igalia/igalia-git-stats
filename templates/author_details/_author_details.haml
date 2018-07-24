@@ -17,19 +17,19 @@
       -if page == :commits_by_date
         = high_stock("charts.commits_sum_by_author_by_date", charts.commits_sum_by_author_by_date([author]))
         %small
-          %center= "5 #{:igalia_authors_shown.t}"
+          %center= "#{:igalia_authors_shown.t}"
 
       -elsif page == :changed_lines_by_date
         = high_stock("charts.changed_lines_by_author_by_date", charts.changed_lines_by_author_by_date([author]))
         %small
-          %center= "5 #{:igalia_authors_shown.t}"
+          %center= "#{:igalia_authors_shown.t}"
 
       -elsif page == :insertions_by_date
         = high_stock("charts.insertions_by_author_by_date", charts.insertions_by_author_by_date([author]))
         %small
-          %center= "5 #{:igalia_authors_shown.t}"
+          %center= "#{:igalia_authors_shown.t}"
 
       -elsif page == :deletions_by_date
         = high_stock("charts.deletions_by_author_by_date", charts.deletions_by_author_by_date([author]))
         %small
-          %center= "5 #{:igalia_authors_shown.t}"
+          %center= "#{:igalia_authors_shown.t}"

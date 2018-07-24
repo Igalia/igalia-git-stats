@@ -41,7 +41,7 @@
       -elsif page == :commits_count_by_author
         = high_chart("charts.commits_count_by_author", charts.commits_count_by_author)
         %small
-          %center= "5 #{:igalia_authors_shown.t}"
+          %center= "#{:igalia_authors_shown.t}"
 
       -elsif page == :commits_sum_by_author_by_date
         = high_stock("charts.commits_sum_by_author_by_date", charts.commits_sum_by_author_by_date)
@@ -51,4 +51,4 @@
       -elsif page == :changed_lines_by_author_by_date
         = high_stock("charts.changed_lines_by_author_by_date", charts.changed_lines_by_author_by_date)
         %small
-          %center= "5 #{:igalia_authors_shown.t}"
+          %center= "#{:igalia_authors_shown.t}"
