@@ -52,6 +52,7 @@ en:
   deletions: Lines deleted
   first_commit: First commit
   last_commit: Last commit
+  last_week_commits: Last week commits
   author: Author
   show_more: More
   close: Close
@@ -63,5 +64,4 @@ en:
   deletions_by_date: Lines deleted by date
   changed_lines_by_date: Changed lines by date
   gerrit: Chromium Gerrit
-  rietveld: Chromium Rietveld
   ongoing_review: Ongoing Review
