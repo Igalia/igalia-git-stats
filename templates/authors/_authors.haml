@@ -22,7 +22,7 @@
             %th= :first_commit.t
             %th= :last_commit.t
             %th
-          - sorted_authors = repo.authors.sort_by { |a| -a.commits.size}
+          - sorted_authors = repo.authors.sort_by { |a| -a.name}
           - sorted_authors.each_with_index do |author, i|
             %tr
               %th= i+1
