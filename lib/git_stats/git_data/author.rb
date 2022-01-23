@@ -12,6 +12,10 @@ module GitStats
         @commits ||= repo.commits.select { |commit| commit.author == self }
       end
 
+      def last_week_commits
+        @last_week_commits ||= repo.last_week_commits.select { |commit| commit.author == self }
+      end
+
       def changed_lines
         insertions + deletions
       end
