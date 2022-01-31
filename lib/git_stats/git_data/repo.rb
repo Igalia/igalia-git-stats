@@ -57,6 +57,18 @@ module GitStats
         end.sort_by! { |e| e.date }
       end
 
+      def last_week_commits
+        @last_week_commits ||= run_and_parse("git rev-list --pretty=format:'%H|%at|%ai|%aE' --since=#{I18n.localize(DateTime.now - 7, format: "%Y-%m-%d")} #{commit_range} #{tree_path} | grep -v commit").map do |commit_line|
+          Commit.new(
+              repo: self,
+              sha: commit_line[:sha],
+              stamp: commit_line[:stamp],
+              date: DateTime.parse(commit_line[:date]),
+              author: authors.first! { |a| a.email == commit_line[:author_email] }
+          )
+        end.sort_by! { |e| e.date }
+      end
+
       def commits_period
         commits.map(&:date).minmax
       end

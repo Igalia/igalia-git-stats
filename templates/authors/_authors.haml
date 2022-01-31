@@ -28,7 +28,7 @@
               %th= i+1
               %th= "#{author.name} &lt;#{author.email}&gt;"
               %td= "<a href=https://chromium.googlesource.com/chromium/src/+log/master?author=#{author.email}>#{author.commits.size}</a>"
-              %td= "<a href=https://chromium-review.googlesource.com/q/(owner:#{author.email})+AND+status:merged+AND+after:#{I18n.localize(DateTime.now - 7, format: "%Y-%m-%d")}+AND+before:#{I18n.localize(DateTime.now, format: "%Y-%m-%d")}>last week commits</a>"
+              %td= "<a href=https://chromium-review.googlesource.com/q/(owner:#{author.email})+AND+status:merged+AND+after:#{I18n.localize(DateTime.now - 7, format: "%Y-%m-%d")}+AND+before:#{I18n.localize(DateTime.now, format: "%Y-%m-%d")}>#{author.last_week_commits.size}</a>"
               %td= "<a href=https://chromium-review.googlesource.com/q/status:merged+author:#{author.email}>gerrit</a>"
               %td= "<a href=https://chromium-review.googlesource.com/q/is:open+owner:#{author.email}>ongoing</a>"
               %td= I18n.localize(author.commits.first.try(:date), format: :long) rescue ""
