@@ -7,8 +7,8 @@ en:
   report_period: Report period
   total_files: Total files
   total_lines: Total lines
-  total_commits: Total commits
-  authors: Authors
+  total_commits: Total Commits
+  authors: Contributors
   commits: Commits
   commits_by_hour: Commits by hour
   files: Files
@@ -37,23 +37,23 @@ en:
   activity: Activity
   activity_by_date: Activity by date
   commits_by_date: Commits by date
-  insertions_by_author: Lines added by author
-  deletions_by_author: Lines deleted by author
-  changed_lines_by_author: Changed lines by author
-  igalia_authors_shown: Igalia Chromium authors shown
-  individual_igalia_authors_shown: Individual Igalia Chromium author shown
-  commits_count_by_author: Commits count by author
-  commits_sum_by_author_by_date: Commits sum by author by date
-  insertions_by_author_by_date: Lines added by author by date
-  deletions_by_author_by_date: Lines deleted by author by date
-  changed_lines_by_author_by_date: Changed lines by author by date
-  igalia_authors: Igalia Chromium authors
+  insertions_by_author: Lines added by Contributor
+  deletions_by_author: Lines deleted by Contributor
+  changed_lines_by_author: Changed lines by Contributor
+  igalia_authors_shown: Igalia Chromium Contributors shown
+  individual_igalia_authors_shown: Individual Igalia Chromium Contributor shown
+  commits_count_by_author: Commits count by Contributor
+  commits_sum_by_author_by_date: Commits sum by Contributor by date
+  insertions_by_author_by_date: Lines added by Contributor by date
+  deletions_by_author_by_date: Lines deleted by Contributor by date
+  changed_lines_by_author_by_date: Changed lines by Contributor by date
+  igalia_authors: Igalia Chromium Contributors
   insertions: Lines added
   deletions: Lines deleted
-  first_commit: First commit
-  last_commit: Last commit
-  last_week_commits: Last week commits
-  author: Author
+  first_commit: First Commit
+  last_commit: Last Commit
+  last_week_commits: LastWeek Commits
+  author: Contributor
   show_more: More
   close: Close
   binary: Binary
